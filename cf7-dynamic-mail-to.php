@@ -13,7 +13,7 @@
 	// If this file is called directly, abort.
 	if (!defined('WPINC')) { die; }
 	
-	include(dirname(__FILE__).'/cf7-dynamic-mail-to-examples.php');
+	//include(dirname(__FILE__).'/cf7-dynamic-mail-to-examples.php');
 	
 	new wpcf7_dynamic_mail_to();
 	
