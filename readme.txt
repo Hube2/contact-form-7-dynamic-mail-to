@@ -13,7 +13,23 @@ Set recipient email dynamically by useing a filter
 
 == Description ==
 
+Dynamically set recipitent of mail using a filter.
 
+How To Use
+----------
+
+Create a filter that will return the recipient of mail. For more information see the example filter in
+cf7-dynamic-mail-to-examples.php included with the plugin.
+
+Add a field to you form with the name "dynamic-mail-to-filter". This can be any type of field that holds
+a single value. I would suggest trying out my other plugin
+[Contact Form 7 - Simple Hidden Field](https://wordpress.org/plugins/contact-form-7-simple-hidden-field/). 
+You can also use another hidden field extension for CF7. Set the value of this field to the name of your
+filter hook.
+
+If you would like the values of other fields sent to your filter as arguments, add a field with the name of
+"dynamic-mail-to-fields." Set the value of this field to a comma separated list of the fields values you 
+want sent to your filter. Again, see the example filter supplied with this plugin.
 
 == Installation ==
 
