@@ -43,5 +43,19 @@
 		
 	} // end class wpcf7_dynamic_mail_to_examples
 	
+	function wpcf7_dynamic_to_filter_example() {
+		if (isset($args['select-email'])) {
+			if ($args['select-email'] == 'send to email 1') {
+				$recipient = 'email-01@email.com';
+			} elseif ($args['select-email'] == 'send to email 2') {
+				$recipient = 'email-02@email.com';
+			} elseif ($args['select-email'] == 'send to email 3') {
+				$recipient = 'email-03@email.com';
+			}
+		}
+		return $recipient;
+	} // end function wpcf7_dynamic_to_filter_example
+	add_filter('wpcf7-dynamic-recipient-example-filter', 'wpcf7_dynamic_to_filter_example', 10, 2);
+	
 	
 ?>
