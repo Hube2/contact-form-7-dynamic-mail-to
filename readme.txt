@@ -1,4 +1,4 @@
-=== Contact Form 7 - Dynamic Mail To ===
+=== Dynamic Recipient for Contact Form 7 ===
 Contributors: Hube2
 Tags: contact form 7, dynamic, mail to, recipient
 Requires at least: 4.0

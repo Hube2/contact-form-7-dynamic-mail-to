@@ -1,7 +1,7 @@
 <?php 
 
 	/*
-		Plugin Name: Contact Form 7 - Dynamic Mail To
+		Plugin Name: Dynamic Recipient for Contact Form 7
 		Plugin URI: https://github.com/Hube2/contact-form-7-dynamic-mail-to
 		Description: Alter the to email address of mail in Contact Form 7 dynamically. Requires Contact Form 7
 		Version: 1.0.0
