@@ -18,9 +18,9 @@
 	class wpcf7_dynamic_mail_to_examples {
 		
 		// these are the email addresses to be used to for setting the recipient email address in cf7
-		private $email_address_1 = 'email01@email.com';
-		private $email_address_2 = 'email02@email.com';
-		private $email_address_3 = 'email01@email.com,email02@email.com';
+		private $email_address_1 = 'hube02@earthlink.net';
+		private $email_address_2 = 'johnhuebner@site-seeker.com';
+		private $email_address_3 = '';
 		
 		public function __construct() {
 			add_filter('wpcf7-dynamic-mail-to-example-filter', array($this, 'filter'), 10, 2);
@@ -43,6 +43,7 @@
 		
 	} // end class wpcf7_dynamic_mail_to_examples
 	
+	/*
 	function wpcf7_dynamic_to_filter_example() {
 		if (isset($args['select-email'])) {
 			if ($args['select-email'] == 'send to email 1') {
@@ -56,6 +57,7 @@
 		return $recipient;
 	} // end function wpcf7_dynamic_to_filter_example
 	add_filter('wpcf7-dynamic-recipient-example-filter', 'wpcf7_dynamic_to_filter_example', 10, 2);
+	*/
 	
 	
 ?>
