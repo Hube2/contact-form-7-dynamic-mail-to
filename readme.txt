@@ -21,7 +21,7 @@ How To Use
 Create a filter that will return the recipient of mail. For more information see the example filter in
 cf7-dynamic-mail-to-examples.php included with the plugin.
 
-`function wpcf7_dynamic_to_filter_example() {
+`function wpcf7_dynamic_to_filter_example($recipient, $args=array()) {
   if (isset($args['select-email'])) {
     if ($args['select-email'] == 'send to email 1') {
       $recipient = 'email-01@email.com';
