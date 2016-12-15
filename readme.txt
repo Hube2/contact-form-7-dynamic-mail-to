@@ -57,6 +57,8 @@ want sent to your filter. Again, see the example filter supplied with this plugi
 
 1. Special Fields in CF7 Example
 
+== Frequently Asked Questions ==
+
 = Tell me how to use this thing again =
 It seems that my instructions in the description are not exactly clear, so here's a step by step
 
