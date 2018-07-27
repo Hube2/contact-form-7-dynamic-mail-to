@@ -1,6 +1,6 @@
 === Dynamic Recipient for Contact Form 7 ===
 Contributors: Hube2
-Tags: contact form 7, dynamic, mail to, recipient
+Tags: adopt-me, contact form 7, dynamic, mail to, recipient
 Requires at least: 4.0
 Tested up to: 4.9
 Stable tag: 1.0.0
@@ -12,6 +12,8 @@ Set recipient email dynamically by useing a filter
 
 
 == Description ==
+
+Addopt this plugin. [Please see details on Github](https://github.com/Hube2/contact-form-7-dynamic-mail-to).
 
 Dynamically set recipitent of mail using a filter.
 
